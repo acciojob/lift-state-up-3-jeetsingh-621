@@ -17,7 +17,7 @@ setselectedOption(option);
       <Child1  handleoptionchange={handleoptionchange}/>
       <Child2 handleoptionchange={handleoptionchange} />
 
-      <h3>Selected Option :{selectedOption}</h3>
+      <p>Selected Option :{selectedOption}</p>
     </div>
   )
 }
