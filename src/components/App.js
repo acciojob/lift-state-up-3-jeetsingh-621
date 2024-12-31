@@ -12,7 +12,7 @@ const App = () => {
 setselectedOption(option);
   }
   return (
-    <div>
+    <div className="parent">
       <h1>Parent Component</h1>
       <Child1  handleoptionchange={handleoptionchange}/>
       <Child2 handleoptionchange={handleoptionchange} />
